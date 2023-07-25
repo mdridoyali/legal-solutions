@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html data-theme="cupcake" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Solutions</title>
+    <!-- daisyui and tailwind cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@500;600;700&family=Fira+Sans:ital,wght@1,400;1,900&family=Handlee&family=Lato:ital,wght@0,700;0,900;1,400;1,700&family=Manrope:wght@300;400;500;600;700;800&family=Montserrat&family=Open+Sans:wght@400;500;800&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap" rel="stylesheet">
+    <!-- fontwasome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <!-- custom color -->
+
+
+    <style>
+    body{
+        font-family: 'Open Sans', 'sans-serif'
+    }
+    </style>
+</head>
+
+<body class="font-family">
+
+    <header class="max-w-screen-xl px-16 mx-auto  my-12 ">
+        <!-- navbar -->
+        <nav>
+            <div class="flex flex-col lg:flex-row mb-12 space-y-7 justify-between items-center bg-base-100">
+                <div class="">
+                    <img class=" " src="images/logo2.png" alt="">
+                </div>
+                <ul class="flex flex-col md:flex-row gap-8  font-thin cursor-pointer">
+                    <li><a>Home</a></li>
+                    <li><a>Services <i class="fa-solid fa-chevron-right"></i></a></li>
+                    <li><a>Cases <i class="fa-solid fa-chevron-right"></i></a></li>
+                    <li><a>Blog <i class="fa-solid fa-chevron-right"></i></a></li>
+                    <li><a>Contact Us <i class="fa-solid fa-chevron-right"></i></a></li>
+                </ul>
+                <button class="btn btn-primary bg-[#B68C5A] rounded-lg p-4 text-white border-none">Free Consultation</button>
+
+            </div>
+        </nav>
+
+        <!-- banner section -->
+        <div class="hero min-h-[80vh] mr-4" style="background-image: url(./images/banner.png);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-lg">
+                <h1 class="mb-5 text-5xl font-bold">We Provide Effective Legal Solutions</h1>
+                <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but the majority  have suffered alteration in some form, by injected humour..</p>
+              
+                <div>
+                    <input class="py-3 pr-32 pl-2 max-w-[500px] mb-4     outline-none  mr-7 rounded-lg" type="text" placeholder="Search your services">
+                    <button class="btn btn-primary bg-[#B68C5A] rounded-lg px-8 text-white border-none">Search</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    </header>
+
+
+    <!-- main section -->
+    <main  class="max-w-screen-xl mx-auto px-16 my-12 " >
+
+      <!-- leagal practice aria -->
+      <section>
+        <div class="text-center mx-auto max-w-2xl space-y-4 mb-10">
+            <h2 class="text-3xl font-bold">The Legal Practice Area</h2>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        </div>
+
+        <!-- legal card container -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                <!-- card 1 -->
+                <div class="border-b-2 border-r-2 text-center space-y-5 px-10 py-16">
+                    <img class="mx-auto max-w-[60px]" src="images/business.png" alt="">
+                    <h3 class="font-semibold text-xl">Business Law</h3>
+                    <p class="text-sm">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <i class="fa-solid text-2xl text-[#B68C5A] fa-circle-arrow-right"></i>
+                </div>
+                <!-- card 2 -->
+                <div class="border-b-2 border-r-2  text-center space-y-5 px-10 py-16 bg-gradient-to-t from-gray-50 to-gray-200">
+                    <img class="mx-auto max-w-[60px]" src="images/criminal.png" alt="">
+                    <h3 class="font-semibold text-xl">Criminal Law</h3>
+                    <p class="text-sm">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <i class="fa-solid text-2xl text-[#B68C5A] fa-circle-arrow-right"></i>
+                </div>
+                <!-- card 3 -->
+                <div class="border-b-2 text-center space-y-5 px-10 py-16">
+                    <img class="mx-auto max-w-[60px]" src="images/child.png" alt="">
+                    <h3 class="font-semibold text-xl">Child Support</h3>
+                    <p class="text-sm">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <i class="fa-solid text-2xl text-[#B68C5A] fa-circle-arrow-right"></i>
+                </div>
+                <!-- card 4 -->
+                <div class="border-r-2 text-center space-y-5 px-10 py-16">
+                    <img class="mx-auto max-w-[60px]" src="images/education.png" alt="">
+                    <h3 class="font-semibold text-xl">Education Law</h3>
+                    <p class="text-sm">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <i class="fa-solid text-2xl text-[#B68C5A] fa-circle-arrow-right"></i>
+                </div>
+                <!-- card 5 -->
+                <div class="border-r-2 text-center space-y-5 px-10 py-16">
+                    <img class="mx-auto max-w-[60px]" src="images/divorce.png" alt="">
+                    <h3 class="font-semibold text-xl">Divorce Law</h3>
+                    <p class="text-sm">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <i class="fa-solid text-2xl text-[#B68C5A] fa-circle-arrow-right"></i>
+                </div>
+                <!-- card 6 -->
+                <div class=" text-center space-y-5 px-10 py-16">
+                    <img class="mx-auto max-w-[60px]" src="images/tax.png" alt="">
+                    <h3 class="font-semibold text-xl">Tax Law</h3>
+                    <p class="text-sm">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <i class="fa-solid text-2xl text-[#B68C5A] fa-circle-arrow-right"></i>
+                </div>
+            </div>
+      </section>
+
+
+
+
+
+    </main>
+
+    <!-- footer -->
+    <footer>
+
+    </footer>
+
+
+</body>
+
+</html>
+
+
+
